@@ -1,22 +1,17 @@
 # Projetos para Portfolio
-// Motivação para conhecer novas tecnologias web
+Motivação para conhecer novas tecnologias web
 
-## `Scroll Behavior Simplificado`
-// Vue.js
-// Link: https://renato7oliveira.github.io/portfolio/Scroll_Smooth/src/
+### `Scroll Behavior Simplificado`
+https://renato7oliveira.github.io/portfolio/Scroll_Smooth/src/
 
-## `Breaking Bad Tributo`
-// GlideJS
-// Link: https://renato7oliveira.github.io/portfolio/Breaking_Bad_Tributo/src/
+### `Breaking Bad Tributo`
+https://renato7oliveira.github.io/portfolio/Breaking_Bad_Tributo/src/
 
-## `Beatles Tributo`
-// CSS3 Animate / Vue.js (props)
-// Link: https://renato7oliveira.github.io/portfolio/Beatles_Tributo/src/
+### `Beatles Tributo`
+https://renato7oliveira.github.io/portfolio/Beatles_Tributo/src/
 
-## `Mobile Test`
-// JS
-// Link: https://renato7oliveira.github.io/portfolio/Mobile_Test/src/
+### `Mobile Test`
+https://renato7oliveira.github.io/portfolio/Mobile_Test/src/
 
-## `Portfolio Oficial`
-// Vue.js (framework)
-// Link: https://www.renato7oliveira.com.br
+### `Portfolio Oficial`
+https://www.renato7oliveira.com.br
