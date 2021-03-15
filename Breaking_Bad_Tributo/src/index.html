@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Breaking Bad Tributo❤️</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Breaking Bad</h1>
+            <h2>Tributo</h2>
+        </div>
+    </header>
+
+    <section class="award">
+        <div>
+            <img src="../assets/images/awards.jpg" alt="Prêmios">
+        </div>
+        <div class="about">
+            <article>
+                <h2>Breaking Bad é tão bom assim?</h2>
+                <p>Breaking Bad é a melhor série televisiva de todos os tempos de acordo com a <a
+                        href="http://bit.ly/3l0ecIs" target="_blank">
+                        Rotten Tomatoes</a>. Entre 2008 e 2014, a série ganhou inúmeros prémios e indicações,
+                    incluindo
+                    10 Primetime Emmy Awards com um para Melhor Série Dramática. Por sua interpretação de Walter White,
+                    Bryan Cranston ganhou o Primetime Emmy Award de Melhor Ator em 2008, 2009, 2010 e 2014.
+                </p>
+                <p>
+                    Assita na: <a href="https://bit.ly/3cg68zo" target="_blank">Netflix</a>
+                    | Leia meu Post <a href="http://bit.ly/2PJmHMl" target="_blank">Medium</a>
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="galery">
+        <h2>Personagens</h2>
+        <div class="images glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <img src="../assets/images/persons-walter.jpg" alt="Walter White">
+                        <p>Walter White</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="../assets/images/persons-jesse.jpg" alt="Jesse Pinkman">
+                        <p>Jesse Pinkman</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="../assets/images/persons-gus.jpg" alt="Gus Fring">
+                        <p>Gus Fring</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="../assets/images/persons-hank.jpg" alt="Hank Schrader">
+                        <p>Hank Schrader</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="../assets/images/persons-saul.jpg" alt="Saul Godman">
+                        <p>Saul Godman</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="../assets/images/persons-mike.jpg" alt="Mike Ehrmantraut">
+                        <p>Mike Ehrmantraut</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="../assets/images/persons-sky.jpg" alt="Skyler White">
+                        <p>Skyler White</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="../assets/images/persons-walter-jr.jpg" alt="Walter Jr.">
+                        <p>Walter Jr.</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="../assets/images/persons-hector.jpg" alt="Hector Salamanca">
+                        <p>Hector Salamanca</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="../assets/images/persons-tuco.jpg" alt="Tuco Salamanca">
+                        <p>Tuco Salamanca</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                    <</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="episodes-bg">
+        <h2 class="episodes-title">Episódios</h2>
+        <div class="episodes">
+            <!-- EPISODIES LIST -->
+        </div>
+    </section>
+
+    <section class="trailer">
+        <article>
+            <h2>Trailer Oficial</h2>
+            <iframe src="https://www.youtube.com/embed/2-W6_6gJda0" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </article>
+    </section>
+
+    <footer>
+        <img src="../assets/images/logo.png" alt="Breaking Bad Logo">
+        <p>Tributo ao Breaking Bad❤️</p>
+    </footer>
+
+    <script src="../assets/js/glide.min.js"></script>
+    <script>
+        new Glide(".images", {
+            // type: 'carousel',
+            perView: 4,
+            focusAt: 'center',
+            gap: 50,
+            breakpoints: {
+                1200: {
+                    perView: 3
+                },
+                800: {
+                    perView: 2
+                }
+            }
+        }).mount();
+
+        let episodies = [
+            {
+                title: 'Temporada 1',
+                items: [
+                    '1 — Piloto',
+                    '2 — Ressurreição',
+                    '3 — Dúvida',
+                    '4 — Homem com Câncer',
+                    '5 — Matéria Cinzenta',
+                    '6 — O Grande Blefe',
+                    '7 — Um Trato Sem Dificuldades'
+                ]
+            },
+            {
+                title: 'Temporada 2',
+                items:
+                    [
+                        '1 — 737',
+                        '2 — Grelhado',
+                        '3 — Picado Por Uma Abelha Morta',
+                        '4 — Abaixo',
+                        '5 — Ruptura',
+                        '6 — Esconde-esconde',
+                        '7 — Preto e Azul',
+                        '8 — Melhor Chamar Saul',
+                        '9 — 4 Dias Fora',
+                        '10 — Sobre',
+                        '11 — Mandala',
+                        '12 — Fênix',
+                        '13 — ABQ'
+                    ]
+            },
+            {
+                title: 'Temporada 3',
+                items: [
+                    '1 — Não Mas',
+                    '2 — Caballo Sin Nombre',
+                    '3 — I.F.T.',
+                    '4 — Luz Verde',
+                    '5 — Mas',
+                    '6 — Pôr do Sol',
+                    '7 — Um Minuto',
+                    '8 — Vejo Você',
+                    '9 — Kafkiano',
+                    '10 — Voar',
+                    '11 — Abiquiu',
+                    '12 — Meias Medidas',
+                    '13 — Medidas Completa'
+                ]
+            },
+            {
+                title: 'Temporada 4',
+                items:
+                    [
+                        '1 — Estilete',
+                        '2 — Trinta e Oito Arrebitado',
+                        '3 — Casa Aberta',
+                        '4 — Pontos de Bala',
+                        '5 — Espingarda',
+                        '6 — Encurralado',
+                        '7 — Cão Problema',
+                        '8 — Irmãos',
+                        '9 — Defeito',
+                        '10 — Saúde',
+                        '11 — Espaço do Rastejamento',
+                        '12 — Fim dos Tempos',
+                        '13 — Cara Fora'
+                    ]
+            },
+            {
+                title: 'Temporada 5',
+                items:
+                    [
+                        '1 — Ao Vivo Livre ou Morrer',
+                        '2 — Madrigal',
+                        '3 — Subsídio de Risco',
+                        '4 — Cinquenta e Um',
+                        '5 — Frete Morto',
+                        '6 — PDV',
+                        '7 — Diga Meu Nome',
+                        '8 — Pairando Sobre Tudo',
+                        '9 — Dinheiro de Sangue',
+                        '10 — Enterrado',
+                        '11 — Confissões',
+                        '12 — Cão Raivoso',
+                        '13 — To’hajiilee',
+                        '14 — Ozymandias',
+                        '15 — Estado de granito',
+                        '16 — Felina'
+                    ],
+            }
+        ];
+
+        let html = '';
+        for (let element of episodies) {
+            html += '<article><h2>' + element.title + '</h2><ul>';
+            for (let item of element.items) {
+                html += '<li>' + item + '</li>';
+            }
+            html += '</ul></article>';
+            document.querySelector('.episodes').innerHTML = html;
+        }
+
+    </script>
+</body>
+
+</html>

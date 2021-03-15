@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta property="og:url" content="https://renato7oliveira.github.io/responsive-test/src/index.html">
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.renato7oliveira.com.br/img/renato7oliveira-home.34fa2d80.jpg" />
+<meta property="og:image:secure_url" content="https://www.renato7oliveira.com.br/img/renato7oliveira-home.34fa2d80.jpg" />
+<link type="text/css" rel="stylesheet" href="../assets/css/style.css"  media="screen,projection"/>
+<title>Responsive Test</title>
+</head>
+<body>
+    <header>
+        <input placeholder="Paste URL..." type="search">
+        <button>OK</button>
+        <nav id="nav">
+            <ul>
+                <li><a class="option active" title="Iphone 5/SE" onclick="test('320', '568', 'Iphone 5/SE')">320 x 568</a></li>
+                <li><a class="option" title="Moto G4 / Galaxy S5" onclick="test('360', '640', 'Moto G4 / Galaxy S5')">360 x 640</a></li>
+                <li><a class="option" title="Iphone 6/7/8" onclick="test('375', '667', 'Iphone 6/7/8')">375 x 667</a></li>
+                <li><a class="option" title="Iphone 6/7/8 Plus" onclick="test('414', '736', 'Iphone 6/7/8 Plus')">414 x 736</a></li>
+                <li><a class="option" title="iPad" onclick="test(768, 450 , 'iPad* noaccuracy')">768 x 1024</a></li>
+                <li><a class="option" title="old School Developer" onclick="test('1024', '768', 'old School Developer')">1024 x 768</a></li>
+                <li><a class="option" title="old School Developer" onclick="test('1025', '768', 'old School Developer')">1025 x 768</a></li>
+                <li><a class="option" title="Most popular resolution Desktop" onclick="test('1366', '768', 'Most popular resolution Desktop')">1366 x 768</a></li>
+                <li><a class="option" title="Full HD Desktop" onclick="test('1920', '1080', 'Full HD Desktop')">1920 x 1080</a></li>
+                <li><a class="option" title="Full HD+ Desktop" onclick="test('2560', '1440', 'Full HD+ Desktop')">2560 x 1440</a></li>
+            </ul>
+        </nav>
+        <div class="copyright"><a href="https://www.renato7oliveira.com.br">@renato7oliveira</a></div>
+    </header>
+
+    <section>
+        <div class="main_content">
+            <p id="main_content_chosed">320 x 568 (Iphone 5/SE)</p>
+            <iframe class="iframe" width="320" height="568" src="../assets/images/gif-responsive.gif"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <i class="large material-icons" title="Focused!" id="userFocus">center_focus_strong</i>
+        <i class="large material-icons" title="Fullscreen" onclick="toggleFullScreen()">fullscreen</i>
+        <i class="large material-icons" title="Refresh" onclick="refresh(320 , 568 , 'Iphone 5/SE' , '../assets/images/gif-responsive.gif')">refresh</i>
+        <i class="large material-icons" title="Brightness" id="brightness">brightness_2</i>
+    </footer>
+
+    <script>
+
+        let nav = document.getElementById("nav");
+        let btns = nav.getElementsByClassName("option");
+        for (let i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+        let current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });}
+        
+        // SELECTS NAV
+        document.querySelector('button').onclick = function(){
+            let url = document.querySelector('input').value;
+            document.querySelector('iframe').setAttribute('src' , url);
+        };
+
+        function test(mWidth , mHeight , description){
+            document.querySelector('iframe').setAttribute('width' , mWidth);
+            document.querySelector('iframe').setAttribute('height' , mHeight);
+            document.getElementById('main_content_chosed').innerHTML = description;
+        };
+        function refresh(mWidth , mHeight , description , defaultIframe ){
+            document.querySelector('iframe').setAttribute('width' , mWidth);
+            document.querySelector('iframe').setAttribute('height' , mHeight);
+            document.querySelector('iframe').setAttribute('src' , defaultIframe);
+            document.getElementById('main_content_chosed').innerHTML = description;
+        };
+        
+
+        // SELECTS NAV
+
+        // DARKMODE
+        const $html = document.querySelector('html');
+        const $checkbox = document.querySelector('#brightness');
+        $checkbox.addEventListener('click' , function(){
+        $html.classList.toggle('dark-mode');
+        });
+        // DARKMODE
+
+        // USER FOCUS
+        document.getElementById('userFocus').onclick = function(){
+        document.querySelector('header').classList.toggle('display_none')
+        };
+        // USER FOCUS
+        // USER FULL SCREEN
+        function toggleFullScreen() {
+        if ((document.fullScreenElement && document.fullScreenElement !== null) || (!document.mozFullScreen && !document.webkitIsFullScreen)) {
+        if (document.documentElement.requestFullScreen) {
+            document.documentElement.requestFullScreen();
+        } else if (document.documentElement.mozRequestFullScreen) {
+            document.documentElement.mozRequestFullScreen();
+        } else if (document.documentElement.webkitRequestFullScreen) {
+            document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+        }
+        } else {
+        if (document.cancelFullScreen) {
+            document.cancelFullScreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.webkitCancelFullScreen) {
+            document.webkitCancelFullScreen();
+        }
+        }
+        }
+        // USER FULL SCREEN
+        
+    </script>
+
+</body>
+</html>
