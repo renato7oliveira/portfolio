@@ -45,7 +45,7 @@
 
         <template id="templatemodal">
             <transition name="modal">
-                <div class="modal"  v-show="modalShow">
+                <div class="modal"  v-show="modalShow" @click="(modalShow = false, scrollUp())">
                     <div class="content">
                         <div class="modal_description">
                             <img :src="photo" :title="name" />
