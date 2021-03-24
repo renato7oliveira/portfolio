@@ -68,12 +68,12 @@
            <section id="info">
                 <div>
                     <h2>CSS</h2>
-                    <p>html {scroll-behavior}</p>
+                    <p>html {scroll-behavior: smooth;}</p>
                 </div>
                 <div>
                     <h2>HTML</h2>
                     <p>
-                        <#id-section>
+                        {{code}}
                     </p>
                 </div>
             </section>
@@ -91,6 +91,10 @@
 
         data: function () {
             return {
+
+                code: `
+                <a href="...url#section"><div id="section">
+                `,
 
                 content: [
                     {
