@@ -1,0 +1,21 @@
+.btn_transparent{
+    background: transparent;
+    border: 2px solid $hero-default;
+    color: $hero-default;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 18px 45px;
+    margin-top: 15px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    i{
+        margin-right: 15px;
+        font-size: 1.1em;
+    }
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.9);
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        color: rgba(255, 255, 255, 0.9);
+    }
+}

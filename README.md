@@ -1,5 +1,11 @@
 # Projetos para Portfolio
-Motivação para conhecer novas tecnologias web
+Clique nos links abaixo:
+
+### `Portfolio Oficial`
+https://www.renato7oliveira.com.br
+
+### `Página Default Github`
+https://renato7oliveira.github.io/portfolio/index.html
 
 ### `Scroll Behavior Simplificado`
 https://renato7oliveira.github.io/portfolio/Scroll_Smooth/src/
@@ -12,9 +18,3 @@ https://renato7oliveira.github.io/portfolio/Beatles_Tributo/src/
 
 ### `Mobile Test`
 https://renato7oliveira.github.io/portfolio/Mobile_Test/src/
-
-### `Portfolio Oficial`
-https://www.renato7oliveira.com.br
-
-### `Página Default Github`
-https://renato7oliveira.github.io/portfolio/index.html
