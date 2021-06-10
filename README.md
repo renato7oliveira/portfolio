@@ -10,9 +10,6 @@ https://renato7oliveira.github.io/portfolio/Clone_Google/
 ### `Desafio CSS - Template Genérico`
 https://renato7oliveira.github.io/portfolio/Grid_CSS_Template_Canyon/
 
-### `Página Default Github`
-https://renato7oliveira.github.io/portfolio/index.html
-
 ### `Scroll Behavior Simplificado`
 https://renato7oliveira.github.io/portfolio/Scroll_Smooth/src/
 
