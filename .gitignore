@@ -2,6 +2,12 @@
 index_compress.html
 index_default.html
 
+#GOOGLE_CLONE
+Google-Clone/info.txt
+Google-Clone/.sass-cache
+Google-Clone/assets/sass/
+Google-Clone/assets/css/style.css.map
+
 #BEATLES_TRIBUTO
 Beatles_Tributo/info.txt
 Beatles_Tributo/.sass-cache

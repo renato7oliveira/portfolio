@@ -4,6 +4,12 @@ Clique nos links abaixo:
 ### `Portfolio Oficial`
 https://www.renato7oliveira.com.br
 
+### `Desafio CSS - Clone Google`
+https://renato7oliveira.github.io/portfolio/Clone_Google/
+
+### `Desafio CSS - Template Genérico`
+https://renato7oliveira.github.io/portfolio/Grid_CSS_Template_Canyon/
+
 ### `Página Default Github`
 https://renato7oliveira.github.io/portfolio/index.html
 
