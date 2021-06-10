@@ -5,7 +5,7 @@ Clique nos links abaixo:
 https://www.renato7oliveira.com.br
 
 ### `Desafio CSS - Clone Google`
-https://renato7oliveira.github.io/portfolio/Clone_Google/
+https://renato7oliveira.github.io/portfolio/Google_Clone/src/
 
 ### `Desafio CSS - Template Genérico`
 https://renato7oliveira.github.io/portfolio/Grid_CSS_Template_Canyon/
